@@ -185,6 +185,7 @@ class HotwordDetector(object):
         Terminate audio stream. Users cannot call start() again to detect.
         :return: None
         """
-        self.stream_in.stop_stream()
-        self.stream_in.close()
-        self.audio.terminate()
+        # self.stream_in.stop_stream()
+        # self.stream_in.close()
+        # self.audio.terminate()
+        pass

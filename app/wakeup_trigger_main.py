@@ -183,7 +183,8 @@ def main():
     dueros.set_directive_listener(directive_listener)
 
     # [小度小度] SnowBoy唤醒引擎
-    model = 'app/snowboy/xiaoduxiaodu_all_10022017.umdl'
+    # model = 'app/snowboy/xiaoduxiaodu_all_10022017.umdl'
+    model = 'app/snowboy/car_hotword.pmdl'
     # SnowBoy唤醒引擎实体
     snowboy = SnowBoy(model)
 
@@ -210,7 +211,7 @@ def main():
     snowboy.start()
     audio.start()
 
-    print '请说[小度小度]来唤醒我.......'
+    print '请说[小车小车]来唤醒我.......'
 
     while True:
         try:
